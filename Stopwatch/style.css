@@ -1,0 +1,59 @@
+/* 
+  Body styles:
+  - Center content vertically and horizontally
+  - Full viewport height
+  - No default margin
+  - Use Arial font
+  - Light background color
+*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* 
+  Stopwatch container styles:
+  - Dark purple background
+  - Padding for spacing inside
+  - Rounded corners
+  - Fixed width for consistency
+  - Center text inside
+*/
+.stopwatch {
+    background-color: #451e3d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* 
+  Time display styles:
+  - Large font size for visibility
+  - Bright teal text color for contrast
+  - Margin below to separate from buttons
+*/
+#time {
+    font-size: 36px;
+    color: #00ffcc;
+    margin-bottom: 20px;
+}
+
+/* 
+  Button styles:
+  - Padding for comfortable click area
+  - Medium font size for readability
+  - Margin between buttons
+  - Cursor changes to pointer on hover for UX
+*/
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}

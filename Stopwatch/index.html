@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for proper text display -->
+    <meta charset="UTF-8" />
+    
+    <!-- Title displayed in browser tab -->
+    <title>Stopwatch</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Main container for the stopwatch app -->
+    <div class="stopwatch">
+        <!-- Display area for stopwatch time -->
+        <div id="time">00:00:00</div>
+
+        <!-- Button to start the stopwatch -->
+        <button onclick="startStopwatch()">Start</button>
+
+        <!-- Button to stop/pause the stopwatch -->
+        <button onclick="stopStopwatch()">Stop</button>
+
+        <!-- Button to reset the stopwatch time to zero -->
+        <button onclick="resetStopwatch()">Reset</button>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
